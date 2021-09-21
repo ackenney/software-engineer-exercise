@@ -7,7 +7,7 @@ const sum = (arrayOfNumbers) => {
   for(let i = 0; i < arrayOfNumbers.length; i++){
       sum = sum + arrayOfNumbers[i]; // calculating sum
   }
-
+  return sum;
 };
 
 module.exports = {
